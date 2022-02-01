@@ -1,0 +1,276 @@
+/* MAIN CONTENT */
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f7f7f7;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+header a {
+  top: 35%;
+  position: relative;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* INTRO */
+.introduce {
+  width: 100%;
+  height: 1000px;
+}
+
+.quote {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(25%, 20%);
+          transform: translate(25%, 20%);
+}
+
+.quote h1 {
+  font-size: 800%;
+  font-family: Poppins;
+  font-weight: 800;
+}
+
+.quote h1 span {
+  text-fill-color: transparent;
+  text-stroke: 3px black;
+}
+
+.quote p {
+  margin-top: -130px;
+  font-size: 300%;
+  font-family: Poppins;
+}
+
+.quote p .creative {
+  background: url("../img/text-background/creative.jpg");
+  background-size: 100%;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation-name: INTRO-TEXT-ANIM;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.scroll-label {
+  width: 100%;
+  bottom: 18px;
+  left: -6px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  position: absolute;
+  animation: slide-bottom 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.scroll {
+  opacity: 1;
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  width: 16px;
+  height: 26px;
+  border-radius: 13px;
+  border: 2px solid #FFA802;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -13px;
+}
+
+.scroll span {
+  display: block;
+  margin: 5px auto;
+  width: 2px;
+  height: 4px;
+  background: #000000;
+  border: 1px solid transparent;
+  border-radius: 30%;
+  animation-duration: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+.enthusiasm {
+  z-index: -1;
+  width: 100%;
+  height: 2000px;
+}
+
+/* ABOUT SECTION */
+.left {
+  width: 55%;
+  height: 957px;
+}
+
+.about {
+  display: inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background: #fafafa;
+  bottom: 0;
+  width: 100%;
+  height: 957px;
+}
+
+.about-text {
+  top: 0;
+  left: 0;
+  transform: translate(5%, 0%);
+          transform: translate(5%, 0%);
+}
+
+.about-text h1 {
+  font-size: 450%;
+  font-family: Poppins;
+  font-weight: 800;
+}
+
+.about-text span {
+  text-fill-color: transparent;
+  text-stroke: 2px black;
+}
+
+.about-text p {
+  font-size: 90%;
+  font-family: Poppins;
+}
+
+.topics {
+  width: 100%;
+  height: 400px;
+  transform: translate(4.4%, 3%);
+          transform: translate(4.4%, 3%);
+  top: 0;
+}
+
+.topics .title {
+  font-size: 600%;
+  font-family: Poppins;
+  text-transform: uppercase;
+  color: #000000;
+  background: url("../img/text-background/text-back2.jpg");
+  background-size: 100%;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation-name: TEXT-ANIM;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes TEXT-ANIM {
+  0% {
+    background-position-x: -115px;
+    background-position-y: 800px;
+  }
+  50% {
+    background-position-x: 0px;
+    background-position-y: 400px;
+  }
+  100% {
+    background-position-x: -115px;
+    background-position-y: 800px;
+  }
+}
+
+@keyframes TEXT-ANIM {
+  0% {
+    background-position-x: -115px;
+    background-position-y: 800px;
+  }
+  50% {
+    background-position-x: 0px;
+    background-position-y: 400px;
+  }
+  100% {
+    background-position-x: -115px;
+    background-position-y: 800px;
+  }
+}
+
+.table-wrapper {
+  margin-top: -25px;
+}
+
+#block {
+  margin-left: 15px;
+  padding: 0 5px;
+  width: 20%;
+  height: 12%;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 2%;
+}
+
+.cell {
+  text-align: center;
+  margin: -6px 0 -5px 0;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.cell h2 {
+  margin-top: -22px;
+  font-size: 100%;
+}
+
+.cell p {
+  font-size: 100%;
+  margin-top: -5px;
+}
+/*# sourceMappingURL=main.css.map */

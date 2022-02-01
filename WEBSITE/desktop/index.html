@@ -1,0 +1,313 @@
+<html>
+
+<head>
+    <title> Thiago Jacob Lannes </title>
+    <link rel="icon" href="img/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta name="description" content="TEXTO DESCRIÇÃO">
+    <meta name="keywords" content="Thiago Jacob Lannes ">
+    <meta name="url" content="" />
+    <meta name="language" content="english" />
+    <meta name="distribution" content="internacional">
+    <meta name="author" content="Thiago Jacob Lannes">
+    <meta name="publisher-email" content="thiagojlannes@gmail.com" />
+    <meta name="reply-to" content="cliente@email.com">
+    <meta name="robots" content="index,follow">
+    <meta name="googletbot" content="index,follow">
+    <link rel="stylesheet" href="../css/desktop.css">
+    <link rel="stylesheet" href="../css/master.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <div class="icons-container">
+        <div class="garbage-box">
+            <div class="garbage-icon" onclick="tabgarbage(), garbageup()"></div>
+            <div class="label-garbage">garbage</div>
+        </div>
+        <div class="comment-box">
+            <div class="comment-icon" onclick="tabcomments(), commentsup()"></div>
+            <div class="label-comment">recommendations</div>
+        </div>
+        <div class="knowledge-box">
+            <div class="knowledge-icon" onclick="tabknowledge(), knowledgeup()"></div>
+            <div class="label-knowledge">resume</div>
+        </div>
+        <div class="internet-box">
+            <div class="internet-icon" onclick="tabinternet()"></div>
+            <div class="label-internet">internet explorer</div>
+        </div>
+    </div>
+    <div id="draggable-comments" class="tab-recommendations" onclick="commentsup()">
+        <div class="exit-tab" onclick="tabcomments()"></div>
+        <div class="content-container">
+            <div class="comment-intro">
+                <div class="comment-title">
+                    Luiz Hildebrando
+                </div>
+                <br>
+                <div class="comment-subtitle">
+                    Web Developer
+                </div>
+            </div>
+            <div class="comment-text">
+                Em multíplos projetos, trabalhei ao lado de Thiago que além de ser um ótimo
+                desenvolvedor, é
+                um ótimo profissional.<br>
+                Sua gama de habilidades se tornaram de imensa utilidade em momentos onde se fazia
+                necessário
+                a adaptação dos programadores ao rumo que o projeto tomava e as várias demandas dos
+                clientes. Sem dúvida uma ótima experiência tanto pra nós, seus colegas de equipe, quanto
+                para os clientes que trabalharam conosco.
+            </div>
+            <br><br><br>
+            <div class="comment-intro">
+                <div class="comment-title">
+                    Luis Claudio Queiroz
+                </div>
+                <br>
+                <div class="comment-subtitle">
+                    Web Developer
+                </div>
+            </div>
+            <br>
+            <div class="comment-text">
+                Definitivamente uma das melhores experiências que tive em ambiente de trabalho. Thiago é
+                muito animado, criativo e ficava sempre disponível a ajudar os outros colegas da equipe
+                após terminar o que lhe era pedido.
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <div id="draggable-knowledge" class="tab-knowledge" onclick="knowledgeup()">
+        <div class="exit-tab" onclick="tabknowledge()"></div>
+        <div class="knowledge-button" onclick="window.location.href = 'www.github.com/ThiagoJacobLannes'">
+            VIEW CV
+        </div>
+    </div>
+    <div id="draggable-garbage" class="tab-garbage" onclick="garbageup()">
+        <div class="exit-tab" onclick="tabgarbage()"></div>
+        <div class="table-container">
+            <table class="tg">
+                <tr>
+                    <th class="tg-cly1">FINAL46PLEAASE</th>
+                    <th class="tg-cly1">C:\Users\PC\Documents\Projects\Design\</th>
+                    <th class="tg-cly2">01/01/2017</th>
+                    <th class="tg-cly1">1902KB</th>
+                    <th class="tg-cly1">.psd File</th>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">TotallyUselessTable</td>
+                    <td class="tg-cly1">C:\RecycleBin\</td>
+                    <td class="tg-cly2">01/06/2018</td>
+                    <td class="tg-cly1">16034KB</td>
+                    <td class="tg-cly1">.xlsx File</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">ThiagoWeirdPhoto</td>
+                    <td class="tg-cly1">C:\Users\PC\Images\Backup\Grandma_files</td>
+                    <td class="tg-cly2">01/01/2014</td>
+                    <td class="tg-cly1">600KB</td>
+                    <td class="tg-cly1">.jpg File</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">FRIENDS_TEMP9</td>
+                    <td class="tg-cly1">C:\Users\PC\Videos\NothingHere\BibleStudy\GOBACK\Shit...</td>
+                    <td class="tg-cly2">23/03/2009</td>
+                    <td class="tg-cly1">32.400650KB</td>
+                    <td class="tg-cly1">Folder</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">SDFGDHD</td>
+                    <td class="tg-cly1">C:\Users/PC\Desktop\Links</td>
+                    <td class="tg-cly2">01/01/2018</td>
+                    <td class="tg-cly1">2.356KB</td>
+                    <td class="tg-cly1">.txt File</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">ASD</td>
+                    <td class="tg-cly1">C:\Users\PC\Desktop</td>
+                    <td class="tg-cly2">16/03/2019</td>
+                    <td class="tg-cly1">1200KB</td>
+                    <td class="tg-cly1">Folder</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">Dropbox</td>
+                    <td class="tg-cly1">C:\Users\PC</td>
+                    <td class="tg-cly2">09/07/2018</td>
+                    <td class="tg-cly1">46473054KB</td>
+                    <td class="tg-cly1">Folder</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">Passwords</td>
+                    <td class="tg-cly1">C:\Users\PC\Documents</td>
+                    <td class="tg-cly2">30/04/2010</td>
+                    <td class="tg-cly1">2KB</td>
+                    <td class="tg-cly1">.txt File</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">HighQualityProjects</td>
+                    <td class="tg-cly1">C:\Users\PC\Dropbox</td>
+                    <td class="tg-cly2">10/08/2019</td>
+                    <td class="tg-cly1">4233445KB</td>
+                    <td class="tg-cly1">Folder</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1">USA_SECRET_FILES</td>
+                    <td class="tg-cly1">C:\Users\PC\Dropbox\TopSecret</td>
+                    <td class="tg-cly2">12\06\2018</td>
+                    <td class="tg-cly1">735343455KB</td>
+                    <td class="tg-cly1">Folder</td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly2"></td>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly2"></td>
+                    <td class="tg-cly1"></td>
+                    <td class="tg-cly1"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                    <td class="tg-0lax"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="windows-bar">
+        <div class="start"></div>
+    </div>
+</footer>
+
+<script>
+    function knowledgeup() {
+        document.getElementById("draggable-knowledge").style.zIndex = "11";
+        document.getElementById("draggable-garbage").style.zIndex = "9";
+        document.getElementById("draggable-comments").style.zIndex = "9";
+    }
+
+    function commentsup() {
+        document.getElementById("draggable-comments").style.zIndex = "11";
+        document.getElementById("draggable-garbage").style.zIndex = "9";
+        document.getElementById("draggable-knowledge").style.zIndex = "9";
+    }
+
+    function garbageup() {
+        document.getElementById("draggable-garbage").style.zIndex = "11";
+        document.getElementById("draggable-comments").style.zIndex = "9";
+        document.getElementById("draggable-knowledge").style.zIndex = "9";
+    }
+</script>
+
+<script>
+    function exitalert() {
+        document.getElementById("deer-alert").classList.toggle("hide-tab");
+    }
+
+    function tabcomments() {
+        document.getElementById("draggable-comments").classList.toggle("show-tab");
+    }
+
+    function tabknowledge() {
+        document.getElementById("draggable-knowledge").classList.toggle("show-tab");
+    }
+
+    function tabgarbage() {
+        document.getElementById("draggable-garbage").classList.toggle("show-tab");
+    }
+
+    /* function tabinternet() {
+        document.getElementById("draggable-internet").classList.toggle("show-tab");
+    } */
+</script>
+
+<script>
+    dragElement(document.getElementById("draggable-comments"));
+    dragElement(document.getElementById("draggable-knowledge"));
+    dragElement(document.getElementById("draggable-garbage"));
+
+    function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        if (document.getElementById(elmnt.id + "header")) {
+            // if present, the header is where you move the DIV from:
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+        } else {
+            // otherwise, move the DIV from anywhere inside the DIV: 
+            elmnt.onmousedown = dragMouseDown;
+        }
+
+        function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            // stop moving when mouse button is released:
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+</script>
+
+
+</html>
